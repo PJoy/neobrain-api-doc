@@ -1,6 +1,7 @@
 # Type : Message
 
-```#parameters: array:5 [
+```
+#parameters: array:5 [
     "assessment_id" => "5"
     "type" => "message"
     "label" => "Votre message"
@@ -11,7 +12,8 @@
 
 # Type : Simple
 
-```#parameters: array:6 [
+```
+#parameters: array:6 [
     "assessment_id" => "5"
     "type" => "simple"
     "label" => "Intitulé de la question"
@@ -23,7 +25,8 @@
 
 # Type : Question ouverte
 
-```#parameters: array:5 [
+```
+#parameters: array:5 [
     "assessment_id" => "5"
     "type" => "justify"
     "label" => "Intitulé de la question"
@@ -34,7 +37,8 @@
 
 # Type : Sélection
 
-```#parameters: array:8 [
+```
+#parameters: array:8 [
     "assessment_id" => "5"
     "type" => "select"
     "label" => "Intitulé de la question"
@@ -48,7 +52,8 @@
 
 # Type : Choix
 
-```#parameters: array:9 [
+```
+#parameters: array:9 [
     "assessment_id" => "5"
     "type" => "choice"
     "label" => "Intitulé de la question"
@@ -63,7 +68,8 @@
 
 # Type : Notation
 
-```#parameters: array:6 [
+```
+#parameters: array:6 [
     "assessment_id" => "5"
     "type" => "range"
     "label" => "Intitulé de la question"
