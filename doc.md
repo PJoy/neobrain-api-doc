@@ -2,16 +2,16 @@
 ## VERSION 2 (JSON)
 _routes à prévoir_
 
-- get_question > return question
-- set_question > return question
-- update_question > return question
-- delete_question > return 1;
-- update_position (= update_question) > return position
+- *get_question* > return question
+- *set_question* > return question
+- *update_question* > return question
+- *delete_question* > return 1;
+- *update_position* (= update_question) > return position
 
 _types de questions_
 ### Type : Message (message)
 
-```
+```json
 {   
     assessment_id: 5,  
     question_id: null, 
@@ -24,7 +24,7 @@ _types de questions_
 
 ### Type : Simple (simple)
 
-```
+```json
 {
     assessment_id: 5,    
     question_id: null, 
@@ -37,7 +37,7 @@ _types de questions_
 
 ### Type : Question ouverte (justify)
 
-```
+```json
 {
     assessment_id: 5,    
     question_id: null, 
@@ -50,7 +50,7 @@ _types de questions_
 
 ### Type : Sélection (select)
 
-```
+```json
 {
     assessment_id: 5,
     question_id: null,    
@@ -68,7 +68,7 @@ _types de questions_
 
 ### Type : Choix (choice)
 
-```
+```json
 {
     assessment_id: 5,    
     question_id: null, 
@@ -86,7 +86,7 @@ _types de questions_
 
 ### Type : Notation (range)
 
-```
+```json
 {
     assessment_id: 5,    
     question_id: null, 
