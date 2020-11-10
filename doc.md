@@ -6,7 +6,8 @@
     "label" => "Votre message"
     "questionId" => ""
     "position" => "1"
-  ]```
+  ]
+```
 
 #Type : Simple
 
@@ -17,7 +18,8 @@
     "questionId" => ""
     "position" => "1"
     "options" => "{"label_simple_commentaire":"Intitulé du commentaire (facultatif)"}"
-  ]```
+  ]
+```
 
 #Type : Question ouverte
 
@@ -27,4 +29,5 @@
     "label" => "Intitulé de la question"
     "questionId" => ""
     "position" => "1"
-  ]```
+  ]
+```
