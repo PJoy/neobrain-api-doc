@@ -2,11 +2,11 @@
 ## VERSION 2 (JSON)
 _routes à prévoir_
 
-- get_question
-- set_question
-- update_question
-- delete_question
-- update_position (= update_question)
+- get_question > return question
+- set_question > return question
+- update_question > return question
+- delete_question > return 1;
+- update_position (= update_question) > return position
 
 _types de questions_
 ### Type : Message (message)
