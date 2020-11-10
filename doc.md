@@ -9,104 +9,104 @@ _routes à prévoir_
 - *update_position* (= update_question) > return position
 
 _types de questions_
-### Type : Message (message)
+### Type : Message (_message_)
 
 ```json
 {   
-    assessment_id: 5,  
-    question_id: null, 
-    type: message,  
-    label: votre message,
-    position: 1,
-    description: "ma description"
+    "assessment_id": 5,  
+    "question_id": null, 
+    "type": "message",  
+    "label": "votre message",
+    "position": 1,
+    "description": "ma description"
 }
 ```
 
-### Type : Simple (simple)
+### Type : Simple (_simple_)
 
 ```json
 {
-    assessment_id: 5,    
-    question_id: null, 
-    type: simple,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description"
+    "assessment_id": 5,    
+    "question_id": null, 
+    "type": "simple",
+    "label": "Intitulé de la question",
+    "position": 1,
+    "description": "ma description"
 }
 ```
 
-### Type : Question ouverte (justify)
+### Type : Question ouverte (_justify_)
 
 ```json
 {
-    assessment_id: 5,    
-    question_id: null, 
-    type: justify,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description"
+    "assessment_id": 5,    
+    "question_id": null, 
+    "type": "justify",
+    "label": "Intitulé de la question",
+    "position": 1,
+    "description": "ma description"
 }
 ```
 
-### Type : Sélection (select)
+### Type : Sélection (_select_)
 
 ```json
 {
-    assessment_id: 5,
-    question_id: null,    
-    type: select,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description",
-    options: {
+    "assessment_id": 5,
+    "question_id": null,    
+    "type": "select",
+    "label": "Intitulé de la question",
+    "position": 1,
+    "description": "ma description",
+    "options": [
         "Intitulé de l'option 1",
         "Intitulé de l'option 2",
         "Intitulé de l'option 3"
-    }
+    ],
 }
 ```
 
-### Type : Choix (choice)
+### Type : Choix (_choice_)
 
 ```json
 {
-    assessment_id: 5,    
-    question_id: null, 
-    type: choice,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description",
-    options: {
+    "assessment_id": 5,    
+    "question_id": null, 
+    "type": "choice",
+    "label": "Intitulé de la question",
+    "position": 1,
+    "description": "ma description",
+    "options": [
         "Intitulé de l'option 1",
         "Intitulé de l'option 2",
         "Intitulé de l'option 3"
-    }
+    ],
 }
 ```
 
-### Type : Notation (range)
+### Type : Notation (_range_)
 
 ```json
 {
-    assessment_id: 5,    
-    question_id: null, 
-    type: range,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description",
-    options: {
+    "assessment_id": 5,    
+    "question_id": null, 
+    "type": "range",
+    "label": "Intitulé de la question",
+    "position": 1,
+    "description": "ma description",
+    "options": [
         "Intitulé de l'option 1",
         "Intitulé de l'option 2",
         "Intitulé de l'option 3"
+    ],
+    "labels": {
+        "left":  "Label à gauche (facultatif)",
+        "center":  "Label au milieu (facultatif)",
+        "right":  "Label à droite (facultatif)"
     },
-    labels: {
-        left:  "Label à gauche (facultatif)",
-        center:  "Label au milieu (facultatif)",
-        right:  "Label à droite (facultatif)"
-    }
-    display: "heart",
-    min: 1,
-    max: 5
+    "display": "heart",
+    "min": 1,
+    "max": 5
 }
 ```
 ## VERSION 1 (formData)
