@@ -58,11 +58,11 @@ _types de questions_
     "label": "Intitulé de la question",
     "position": 1,
     "description": "ma description",
-    "options": [
-        "Intitulé de l'option 1",
-        "Intitulé de l'option 2",
-        "Intitulé de l'option 3"
-    ],
+    "options": {
+        "value_option_1" : "Intitulé de l'option 1",
+        "value_option_2" : "Intitulé de l'option 2",
+        "value_option_3" : "Intitulé de l'option 3"
+    }
 }
 ```
 
@@ -76,11 +76,12 @@ _types de questions_
     "label": "Intitulé de la question",
     "position": 1,
     "description": "ma description",
-    "options": [
-        "Intitulé de l'option 1",
-        "Intitulé de l'option 2",
-        "Intitulé de l'option 3"
-    ],
+    "max_choices": 3,
+    "options": {
+        "value_option_1" : "Intitulé de l'option 1",
+        "value_option_2" : "Intitulé de l'option 2",
+        "value_option_3" : "Intitulé de l'option 3"
+    }
 }
 ```
 
@@ -94,11 +95,6 @@ _types de questions_
     "label": "Intitulé de la question",
     "position": 1,
     "description": "ma description",
-    "options": [
-        "Intitulé de l'option 1",
-        "Intitulé de l'option 2",
-        "Intitulé de l'option 3"
-    ],
     "labels": {
         "left":  "Label à gauche (facultatif)",
         "center":  "Label au milieu (facultatif)",
@@ -172,7 +168,7 @@ _types de questions_
     "questionId" => ""
     "position" => "1"
     "options_type" => "choice_option"
-    "answer_count" => "5"
+    "answer_count" => "3"
     "options" => "Intitul%C3%A9%20de%20l'option%201,Intitul%C3%A9%20de%20l'option%202%20,Intitul%C3%A9%20de%20l'option%203%20"
     "optionscommentaire" => "{"label_choice_commentaire":"Intitulé du commentaire (facultatif)"}"
   ]
