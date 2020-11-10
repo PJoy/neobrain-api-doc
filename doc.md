@@ -95,14 +95,16 @@ _types de questions_
     "label": "Intitulé de la question",
     "position": 1,
     "description": "ma description",
-    "labels": {
-        "left":  "Label à gauche (facultatif)",
-        "center":  "Label au milieu (facultatif)",
-        "right":  "Label à droite (facultatif)"
-    },
-    "display": "heart",
-    "min": 1,
-    "max": 5
+    "options: {
+        "labels": {
+            "left":  "Label à gauche (facultatif)",
+            "center":  "Label au milieu (facultatif)",
+            "right":  "Label à droite (facultatif)"
+        },
+        "display": "heart",
+        "min": 1,
+        "max": 5
+    }
 }
 ```
 ## VERSION 1 (formData)
