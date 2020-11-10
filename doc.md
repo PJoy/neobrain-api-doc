@@ -3,9 +3,10 @@
 _routes à prévoir_
 
 - __get-questions__ > return questions[] | null
-- __new-question__ > return boolean
+- __new-question__ > return id
 - __edit-question__ > return boolean
-- __delete-question__ > return boolean;
+- __edit-position__ > return boolean
+- __delete-question__ > return boolean
 
 _types de questions_
 ### Type : Message (_message_)
