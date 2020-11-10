@@ -1,4 +1,114 @@
 # Save question
+## VERSION 2 (JSON)
+_routes à prévoir_
+
+- get_question
+- set_question
+- update_question
+- delete_question
+- update_position (= update_question)
+
+_types de questions_
+### Type : Message (message)
+
+```
+{   
+    assessment_id: 5,  
+    question_id: null, 
+    type: message,  
+    label: votre message,
+    position: 1,
+    description: "ma description"
+}
+```
+
+### Type : Simple (simple)
+
+```
+{
+    assessment_id: 5,    
+    question_id: null, 
+    type: simple,
+    label: "Intitulé de la question",
+    position: 1,
+    description: "ma description"
+}
+```
+
+### Type : Question ouverte (justify)
+
+```
+{
+    assessment_id: 5,    
+    question_id: null, 
+    type: justify,
+    label: "Intitulé de la question",
+    position: 1,
+    description: "ma description"
+}
+```
+
+### Type : Sélection (select)
+
+```
+{
+    assessment_id: 5,
+    question_id: null,    
+    type: select,
+    label: "Intitulé de la question",
+    position: 1,
+    description: "ma description",
+    options: {
+        "Intitulé de l'option 1",
+        "Intitulé de l'option 2",
+        "Intitulé de l'option 3"
+    }
+}
+```
+
+### Type : Choix (choice)
+
+```
+{
+    assessment_id: 5,    
+    question_id: null, 
+    type: choice,
+    label: "Intitulé de la question",
+    position: 1,
+    description: "ma description",
+    options: {
+        "Intitulé de l'option 1",
+        "Intitulé de l'option 2",
+        "Intitulé de l'option 3"
+    }
+}
+```
+
+### Type : Notation (range)
+
+```
+{
+    assessment_id: 5,    
+    question_id: null, 
+    type: range,
+    label: "Intitulé de la question",
+    position: 1,
+    description: "ma description",
+    options: {
+        "Intitulé de l'option 1",
+        "Intitulé de l'option 2",
+        "Intitulé de l'option 3"
+    },
+    labels: {
+        left:  "Label à gauche (facultatif)",
+        center:  "Label au milieu (facultatif)",
+        right:  "Label à droite (facultatif)"
+    }
+    display: "heart",
+    min: 1,
+    max: 5
+}
+```
 ## VERSION 1 (formData)
 ### Type : Message (message)
 
@@ -80,100 +190,3 @@
     "options" => "{"range_type":"heart","indicator_type":"","range_end":5,"range_start":1,"label_range_commentaire":"Intitulé du commentaire (facultatif)","label_center":"Label au centre (facultatif)","label_right":"Label à droite (facultatif)","label_left":"Label à gauche (facultatif)"}"
   ]
 ```
-
-## VERSION 2 (JSON)
-### Type : Message (message)
-
-```
-{   
-    assessment_id: 5,   
-    type: message,  
-    label: votre message,
-    position: 1,
-    description: "ma description"
-}
-```
-
-### Type : Simple (simple)
-
-```
-{
-    assessment_id: 5,
-    type: simple,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description"
-}
-```
-
-### Type : Question ouverte (justify)
-
-```
-{
-    assessment_id: 5,
-    type: justify,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description"
-}
-```
-
-### Type : Sélection (select)
-
-```
-{
-    assessment_id: 5,
-    type: select,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description",
-    options: {
-        "Intitulé de l'option 1",
-        "Intitulé de l'option 2",
-        "Intitulé de l'option 3"
-    }
-}
-```
-
-### Type : Choix (choice)
-
-```
-{
-    assessment_id: 5,
-    type: choice,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description",
-    options: {
-        "Intitulé de l'option 1",
-        "Intitulé de l'option 2",
-        "Intitulé de l'option 3"
-    }
-}
-```
-
-### Type : Notation (range)
-
-```
-{
-    assessment_id: 5,
-    type: range,
-    label: "Intitulé de la question",
-    position: 1,
-    description: "ma description",
-    options: {
-        "Intitulé de l'option 1",
-        "Intitulé de l'option 2",
-        "Intitulé de l'option 3"
-    },
-    labels: {
-        left:  "Label à gauche (facultatif)",
-        center:  "Label au milieu (facultatif)",
-        right:  "Label à droite (facultatif)"
-    }
-    display: "heart",
-    min: 1,
-    max: 5
-}
-```
-
