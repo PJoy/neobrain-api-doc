@@ -84,10 +84,10 @@
 ## Type : Message (message)
 
 ```
-{
-	assessment_id: 5,
-	type: message,
-	label: votre message,
+{   
+    assessment_id: 5,   
+    type: message,  
+    label: votre message,
     position: 1,
     description: "ma description"
 }
@@ -97,9 +97,9 @@
 
 ```
 {
-	assessment_id: 5,
-	type: simple,
-	label: "Intitulé de la question",
+    assessment_id: 5,
+    type: simple,
+    label: "Intitulé de la question",
     position: 1,
     description: "ma description"
 }
@@ -109,9 +109,9 @@
 
 ```
 {
-	assessment_id: 5,
-	type: justify,
-	label: "Intitulé de la question",
+    assessment_id: 5,
+    type: justify,
+    label: "Intitulé de la question",
     position: 1,
     description: "ma description"
 }
@@ -121,9 +121,9 @@
 
 ```
 {
-	assessment_id: 5,
-	type: select,
-	label: "Intitulé de la question",
+    assessment_id: 5,
+    type: select,
+    label: "Intitulé de la question",
     position: 1,
     description: "ma description",
     options: {
@@ -138,9 +138,9 @@
 
 ```
 {
-	assessment_id: 5,
-	type: choice,
-	label: "Intitulé de la question",
+    assessment_id: 5,
+    type: choice,
+    label: "Intitulé de la question",
     position: 1,
     description: "ma description",
     options: {
@@ -155,9 +155,9 @@
 
 ```
 {
-	assessment_id: 5,
-	type: range,
-	label: "Intitulé de la question",
+    assessment_id: 5,
+    type: range,
+    label: "Intitulé de la question",
     position: 1,
     description: "ma description",
     options: {
