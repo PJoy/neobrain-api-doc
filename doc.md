@@ -99,7 +99,7 @@ _types de questions_
     "label": "Intitulé de la question",
     "position": 1,
     "description": "ma description",
-    "params": {
+    "options": {
         "labels": {
             "left":  "Label à gauche (facultatif)",
             "center":  "Label au milieu (facultatif)",
