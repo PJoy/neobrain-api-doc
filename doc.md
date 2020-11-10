@@ -1,4 +1,4 @@
-# VERSION 1 : actuelle
+# VERSION 1 (formData)
 ## Type : Message (message)
 
 ```
@@ -80,7 +80,7 @@
   ]
 ```
 
-# VERSION 2
+# VERSION 2 (JSON)
 ## Type : Message (message)
 
 ```
@@ -168,7 +168,7 @@
     labels: {
         left:  "Label à gauche (facultatif)",
         center:  "Label au milieu (facultatif)",
-        right:  "Label à droite (facultatif)",
+        right:  "Label à droite (facultatif)"
     }
     display: "heart",
     min: 1,
