@@ -59,9 +59,11 @@ _types de questions_
     "position": 1,
     "description": "ma description",
     "options": {
-        "value_option_1" : "Intitulé de l'option 1",
-        "value_option_2" : "Intitulé de l'option 2",
-        "value_option_3" : "Intitulé de l'option 3"
+        "choices" : [
+            "Intitulé de l'option 1",
+            "Intitulé de l'option 2",
+            "Intitulé de l'option 3"
+        ]
     }
 }
 ```
@@ -78,9 +80,11 @@ _types de questions_
     "description": "ma description",
     "max_choices": 3,
     "options": {
-        "value_option_1" : "Intitulé de l'option 1",
-        "value_option_2" : "Intitulé de l'option 2",
-        "value_option_3" : "Intitulé de l'option 3"
+        "choices" : [
+            "Intitulé de l'option 1",
+            "Intitulé de l'option 2",
+            "Intitulé de l'option 3"
+        ]
     }
 }
 ```
@@ -95,7 +99,7 @@ _types de questions_
     "label": "Intitulé de la question",
     "position": 1,
     "description": "ma description",
-    "options: {
+    "params": {
         "labels": {
             "left":  "Label à gauche (facultatif)",
             "center":  "Label au milieu (facultatif)",
