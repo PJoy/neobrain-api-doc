@@ -18,7 +18,6 @@ _types de questions_
     "type": "message",  
     "label": "votre message",
     "position": 1,
-    "description": "ma description"
 }
 ```
 
