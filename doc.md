@@ -13,8 +13,8 @@ _types de questions_
 
 ```json
 {   
+    "id": null, 
     "assessment_id": 5,  
-    "question_id": null, 
     "type": "message",  
     "label": "votre message",
     "position": 1
@@ -25,8 +25,8 @@ _types de questions_
 
 ```json
 {
+    "id": null, 
     "assessment_id": 5,    
-    "question_id": null, 
     "type": "simple",
     "label": "Intitulé de la question",
     "position": 1,
@@ -38,8 +38,8 @@ _types de questions_
 
 ```json
 {
+    "id": null, 
     "assessment_id": 5,    
-    "question_id": null, 
     "type": "justify",
     "label": "Intitulé de la question",
     "position": 1,
@@ -51,8 +51,8 @@ _types de questions_
 
 ```json
 {
+    "id": null,    
     "assessment_id": 5,
-    "question_id": null,    
     "type": "select",
     "label": "Intitulé de la question",
     "position": 1,
@@ -71,8 +71,8 @@ _types de questions_
 
 ```json
 {
+    "id": null, 
     "assessment_id": 5,    
-    "question_id": null, 
     "type": "choice",
     "label": "Intitulé de la question",
     "position": 1,
@@ -92,8 +92,8 @@ _types de questions_
 
 ```json
 {
+    "id": null, 
     "assessment_id": 5,    
-    "question_id": null, 
     "type": "range",
     "label": "Intitulé de la question",
     "position": 1,
@@ -126,6 +126,7 @@ _types de questions_
     "todo": "TODO"
 }
 ```
+
 ### Type : Tableau (_array_)
 
 ```json
@@ -133,6 +134,7 @@ _types de questions_
     "todo": "TODO"
 }
 ```
+
 ### Type : Complétion du profil (_profile_)
 
 ```json
@@ -140,6 +142,7 @@ _types de questions_
     "todo": "TODO"
 }
 ```
+
 ### Type : Compétences (_skills_)
 
 ```json
@@ -147,6 +150,7 @@ _types de questions_
     "todo": "TODO"
 }
 ```
+
 ## VERSION 1 (formData)
 ### Type : Message (message)
 
