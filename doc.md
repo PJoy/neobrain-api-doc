@@ -111,6 +111,48 @@ _types de questions_
     }
 }
 ```
+        case "eval-obj": return "Evaluation des objectifs";
+        case "eval-prop": return "Proposition d'objectifs";
+        case "array": return "Tableau";
+        case "profile": return "Complétion du profil";
+        case "skills": return "Compétences";
+
+### Type : Evaluation des objectifs (_eval-obj_)
+
+```json
+{
+    "todo": "TODO"
+}
+```
+
+### Type : Proposition d'objectifs (_eval-prop_)
+
+```json
+{
+    "todo": "TODO"
+}
+```
+### Type : Tableau (_array_)
+
+```json
+{
+    "todo": "TODO"
+}
+```
+### Type : Complétion du profil (_profile_)
+
+```json
+{
+    "todo": "TODO"
+}
+```
+### Type : Compétences (_skills_)
+
+```json
+{
+    "todo": "TODO"
+}
+```
 ## VERSION 1 (formData)
 ### Type : Message (message)
 
