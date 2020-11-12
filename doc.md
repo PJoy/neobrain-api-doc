@@ -17,7 +17,7 @@ _types de questions_
     "question_id": null, 
     "type": "message",  
     "label": "votre message",
-    "position": 1,
+    "position": 1
 }
 ```
 
