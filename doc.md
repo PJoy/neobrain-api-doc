@@ -3,14 +3,15 @@
 
 Au chargement du questionnaire, nouvelle variable sérialisée : dataAssessment
 
-_Routes AJAX :_
+### Routes AJAX :
 
 - __{{ path('company.assessmentquestion.new') }}__ > return JsonResponse(['creation' => boolean ])
 - __{{ path('company.assessmentquestion.edit', { 'assessmentQuestion': id à renseigner }) }}__ > return JsonResponse(['edition' => boolean ])
 - __{{ path('company.assessmentquestion.delete', { 'assessmentQuestion': id à renseigner }) }}__ > return JsonResponse(['delete' => boolean ])
 
-_types de questions_
-### Type : Message (_message_)
+### Types de questions :
+
+#### Type : Message (_message_)
 
 ```json
 {   
@@ -22,7 +23,7 @@ _types de questions_
 }
 ```
 
-### Type : Simple (_simple_)
+#### Type : Simple (_simple_)
 
 ```json
 {
@@ -35,7 +36,7 @@ _types de questions_
 }
 ```
 
-### Type : Question ouverte (_justify_)
+#### Type : Question ouverte (_justify_)
 
 ```json
 {
@@ -48,7 +49,7 @@ _types de questions_
 }
 ```
 
-### Type : Sélection (_select_)
+#### Type : Sélection (_select_)
 
 ```json
 {
@@ -68,7 +69,7 @@ _types de questions_
 }
 ```
 
-### Type : Choix (_choice_)
+#### Type : Choix (_choice_)
 
 ```json
 {
@@ -89,7 +90,7 @@ _types de questions_
 }
 ```
 
-### Type : Notation (_range_)
+#### Type : Notation (_range_)
 
 ```json
 {
@@ -112,7 +113,7 @@ _types de questions_
 }
 ```
 
-### Type : Evaluation des objectifs (_eval-obj_)
+#### Type : Evaluation des objectifs (_eval-obj_)
 
 ```json
 {
@@ -120,7 +121,7 @@ _types de questions_
 }
 ```
 
-### Type : Proposition d'objectifs (_eval-prop_)
+#### Type : Proposition d'objectifs (_eval-prop_)
 
 ```json
 {
@@ -128,7 +129,7 @@ _types de questions_
 }
 ```
 
-### Type : Tableau (_array_)
+#### Type : Tableau (_array_)
 
 ```json
 {
@@ -136,7 +137,7 @@ _types de questions_
 }
 ```
 
-### Type : Complétion du profil (_profile_)
+#### Type : Complétion du profil (_profile_)
 
 ```json
 {
@@ -144,7 +145,7 @@ _types de questions_
 }
 ```
 
-### Type : Compétences (_skills_)
+#### Type : Compétences (_skills_)
 
 ```json
 {
