@@ -1,7 +1,7 @@
 # QUESTION FORMS ADMIN SIDE
 ## VERSION 2
 
-_Au chargement du questionnaire, nouvelle variable sérialisée : dataAssessment
+Au chargement du questionnaire, nouvelle variable sérialisée : dataAssessment
 
 _Routes AJAX :_
 
