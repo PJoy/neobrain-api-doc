@@ -1,8 +1,8 @@
 # QUESTION FORMS ADMIN SIDE
 ## VERSION 2 (JSON)
-_routes à prévoir_
+_Routes AJAX :_
 
-- __get-questions__ > return questions[] | null
+- __{{ path('company.assessmentquestion.new') }}__ > return questions[] | null
 - __new-question__ > return id
 - __edit-question__ > return boolean
 - __edit-position__ > return boolean
