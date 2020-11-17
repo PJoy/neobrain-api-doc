@@ -1,12 +1,13 @@
 # QUESTION FORMS ADMIN SIDE
-## VERSION 2 (JSON)
+## VERSION 2
+
+_Au chargement du questionnaire, nouvelle variable sérialisée : dataAssessment
+
 _Routes AJAX :_
 
-- __{{ path('company.assessmentquestion.new') }}__ > return questions[] | null
-- __new-question__ > return id
-- __edit-question__ > return boolean
-- __edit-position__ > return boolean
-- __delete-question__ > return boolean
+- __{{ path('company.assessmentquestion.new') }}__ > return JsonResponse(['creation' => boolean ])
+- __{{ path('company.assessmentquestion.edit', { 'assessmentQuestion': id à renseigner }) }}__ > return JsonResponse(['edition' => boolean ])
+- __{{ path('company.assessmentquestion.delete', { 'assessmentQuestion': id à renseigner }) }}__ > return JsonResponse(['delete' => boolean ])
 
 _types de questions_
 ### Type : Message (_message_)
